@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css"
+    />
+    <title>Material - Git e Github</title>
+  </head>
+  <body>
+    <h1>O que é Git?</h1>
+
+    <p>
+      Git é um sistema de controle de versão distribuído gratuito e de código
+      aberto projetado para lidar com tudo, desde projetos pequenos a muito
+      grandes, com rapidez e eficiência. O Git é melhor aproveitado quando usado
+      em conjunto com a plataforma <a href="https://www.github.com">Github</a>
+    </p>
+    <hr>
+    <h2>Comandos básicos do Git</h2>
+    <p>
+      Para usar o Git, deve-se utilizar o terminal. Para iniciá-lo, basta clicar com o botão direito do mouse em uma pasta vazia e selecionar a opção "Git Bash Here".<br>
+      <small>OBS: Existe a opção Git GUI, porém existem ações mais fáceis de realizar no terminal(Bash), além de, por ser um terminal Unix, permite utilizar comandos do Linux em computadores com
+      sistema operacional Windows.
+      </small>
+
+      <h2>Lista de comandos: </h2>
+      <ul>
+        <li><p><b>git init</b>: Ao executar o comando <code>git init</code>, transforma a pasta atual num repositório <strong>local</strong> do Git.</p></li>
+        
+        <li><p><b>git add</b>: O comando <code>git add</code> é utilizado para começar a transferência de arquivos para o repositório. Para adicionar todos os arquivos, basta utilizar o comando <code>git add .</code><br>
+        Para adicionar apenas um arquivo, a sintaxe é a seguinte: <code>git add filename.extension</code>. Exemplo: <code>git add index.html</code></p></li>
+        
+        <li><p><b>git commit</b>: O comando <code>git commit</code> prepara os arquivos adicionados para a transferência. Sintaxe: <code>git commit -m "título do commit" -m "Descrição(não necessária)"</code><br>
+        Exemplo: <code>git commit -m "Adicionando index.html" -m "Adicionando a página principal ao repositório."</code></p></li>
+        
+        <li><p><b>git push</b>: O comando <code>git push</code> é a última etapa da transferência, efetivamente transferindo os arquivos do repositório local para o repositório remoto. <br>
+        Este comando pode ter várias sintaxes, mas a mais comum é <code>git push remote branch</code><br>
+        Exemplo: <code>git push origin main</code></p></li>
+        
+        <li><p><b>git status</b>: O comando <code>git status</code> exibe exatamente o status do repositório, exibindo arquivos adicionados mas não adicionados a um commit, branch atual, diferença entre branch remoto e branch local, entre outros.<br>
+        Sua sintaxe é simples, sendo somente <code>git status</code></p></li>
+
+        <li><p><b></b></p></li>
+      </ul>
+    </p>
+  </body>
+</html>
